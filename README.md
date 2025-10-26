@@ -1,8 +1,9 @@
 <h1 align="center">🚚 Project 1 — Salalah Delivery Express</h1>
 
 <p align="center">
-   <img src="https://img.shields.io/badge/Status-Completed-success?style=for-the-badge" alt="Status">
+  <img src="https://img.shields.io/badge/Status-Completed-success?style=for-the-badge" alt="Status">
   <img src="https://img.shields.io/badge/Language-C%23-blue?style=for-the-badge" alt="C#">
+  <img src="https://img.shields.io/badge/Concepts-OOP%2C%20Classes%2C%20Lists%2C%20Enum-lightgrey?style=for-the-badge" alt="Concepts">
   <img src="https://img.shields.io/badge/Author-Raya_Al_Amri-blueviolet?style=for-the-badge" alt="Author">
 </p>
 
@@ -12,23 +13,24 @@
 - [📖 Story](#-story)
 - [👨‍💻 System Components](#-system-components)
 - [🧩 Features](#-features)
+- [💻 Code Structure](#-code-structure)
 - [⚙️ Technologies Used](#️-technologies-used)
 - [👩🏻‍💻 Author](#-author)
 
 ---
 
 ## 📖 Story
-A small local delivery company in the **Salalah Industrial Area** struggles to manage delivery requests efficiently.  
+A small local delivery company in the **Salalah Industrial Area** struggled to manage delivery requests efficiently.  
 
-They want a **simple program** to track:  
-- Drivers  
-- Delivery requests  
-- Customers  
+This project demonstrates a **console-based C# application** to track:  
+- **Customers**  
+- **Drivers**  
+- **Deliveries with status**  
 
-Each delivery has:
+Each delivery has:  
 - **Customer**  
 - **Driver**  
-- **Status:** `"Pending"`, `"On the Way"`, `"Delivered"`  
+- **Status:** `"Pending"`, `"On The Way"`, `"Delivered"`  
 
 **Rules:**  
 - Drivers can handle multiple deliveries  
@@ -37,40 +39,26 @@ Each delivery has:
 ---
 
 ## 👨‍💻 System Components
-| Component | Description |
-|-----------|-------------|
-| **Drivers** | Stores driver details, can have multiple deliveries |
-| **Customers** | Stores customer information for each delivery |
-| **Deliveries** | Contains customer, driver, and delivery status |
-| **Delivery Status** | Enum: `Pending`, `OnTheWay`, `Delivered` |
-| **Tracking System** | Simple console-based program to add, update, and view deliveries |
+<div style="background-color:#f0f4f8; padding:10px; border-radius:8px;">
+<b>Customer</b>: Stores customer name and address. <br>
+<b>Driver</b>: Stores driver name, phone, and list of assigned deliveries. <br>
+<b>Delivery</b>: Links a customer with a driver and tracks delivery status. <br>
+<b>DeliveryStatus (Enum)</b>: Pending, OnTheWay, Delivered. <br>
+</div>
 
 ---
 
 ## 🧩 Features
 - Add new **drivers** and **customers**  
 - Create **delivery requests** and assign them to a driver  
-- Update **delivery status** (`Pending → On the Way → Delivered`)  
+- Update **delivery status** dynamically  
 - Display **all deliveries** for a specific driver or customer  
-- Simple **console interface** for easy management  
+- Console interface with structured output for clarity  
 
 ---
 
-## ⚙️ Technologies Used
-- **C#** (Classes, Arrays, Enums, Loops, Conditions)  
-- **Console Application**  
-- **OOP Concepts:** Classes, Objects, Encapsulation  
+## 💻 Code Structure
 
----
-
-## 👩🏻‍💻 Author
-**Raya Al Amri**  
-🎓 Information Systems Graduate  
-💡 Passionate about building structured, real-world applications  
-📍 University of Technology and Applied Sciences — Salalah  
-
----
-
-<p align="center">
-  <b>✨ “Track your deliveries efficiently, and let your code drive your business forward.” ✨</b>
-</p>
+### 1️⃣ Enum: `DeliveryStatus`
+```csharp
+enum DeliveryStatus { Pending, OnTheWay, Delivered }
