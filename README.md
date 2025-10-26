@@ -19,7 +19,7 @@
 
 ## 🚗 Project 1 — Salalah Delivery Express
 <div style="background-color:#e8f0fe; padding:12px; border-radius:8px;">
-**Story:**  
+Story:
 A small local delivery company in Salalah Industrial Area wants to track drivers, deliveries, and customers.  
 
 **System Tracks:**  
@@ -43,88 +43,6 @@ A small local delivery company in Salalah Industrial Area wants to track drivers
 
 ---
 
-## 📚 Project 2 — Salalah Book Café
-<div style="background-color:#fef4e8; padding:12px; border-radius:8px;">
-**Story:**  
-A cozy café in Haffa Souq offers coffee and allows customers to borrow books while they drink.  
-
-**System Tracks:**  
-- Menu items (coffee, tea, juice, etc.)  
-- Books available for borrowing  
-- Customer orders and borrowed books  
-
-**Rules:**  
-- Each customer can borrow up to 2 books at a time  
-- Borrowed books are returned automatically when customer leaves  
-</div>
-
-**Features:**  
-- Add new menu items and books  
-- Register customers and track orders  
-- Borrow/return books  
-- Display customer orders and book status  
-- Structured console interface  
-
-**Technologies:** C#, OOP, Classes, Lists, Enum, Composition  
-
----
-
-## 🚗 Project 3 — Dhofar Car Rental
-<div style="background-color:#e8fdf5; padding:12px; border-radius:8px;">
-**Story:**  
-A small car rental company near Salalah Airport manages cars, customers, and rental transactions.  
-
-**System Tracks:**  
-- Cars with daily rates and availability  
-- Customers and their rentals  
-- Rental records linking a car, customer, duration, and cost  
-
-**Rules:**  
-- Cars can be Available or Rented  
-- Revenue calculated automatically  
-- Quick check for available cars  
-</div>
-
-**Features:**  
-- Add cars and customers  
-- Create rental transactions with automatic cost calculation  
-- Update car status automatically  
-- View available cars  
-- Calculate total revenue  
-- Simple console interface  
-
-**Technologies:** C#, OOP, Classes, Lists, Enum, Encapsulation, Composition  
-
----
-
-## ⚽ Project 4 — Salalah Sports League
-<div style="background-color:#f0f4f8; padding:12px; border-radius:8px;">
-**Story:**  
-An annual football league organized by Salalah Municipality between local academies.  
-
-**System Tracks:**  
-- Teams (name, coach, players)  
-- Players (name, age, position)  
-- Matches (teams, score, winner)  
-- League standings  
-
-**Rules:**  
-- Each match has two teams and a score  
-- Winner is determined automatically  
-- Draws give points to both teams  
-- Standings update automatically  
-</div>
-
-**Features:**  
-- Register teams and players  
-- Record matches and scores  
-- Automatically determine winners  
-- Track league points and standings  
-- Console interface  
-
-**Technologies:** C#, OOP, Classes, Lists, Composition, Encapsulation  
-
----
 
 ## 👩🏻‍💻 Author
 **Raya Al Amri**  
