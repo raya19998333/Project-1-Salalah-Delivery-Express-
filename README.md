@@ -1,7 +1,6 @@
 <h1 align="center">🚚 Project 1 — Salalah Delivery Express</h1>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Status-Ongoing-blue?style=for-the-badge" alt="Status">
    <img src="https://img.shields.io/badge/Status-Completed-success?style=for-the-badge" alt="Status">
   <img src="https://img.shields.io/badge/Language-C%23-blue?style=for-the-badge" alt="C#">
   <img src="https://img.shields.io/badge/Author-Raya_Al_Amri-blueviolet?style=for-the-badge" alt="Author">
